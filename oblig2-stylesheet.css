@@ -1,0 +1,146 @@
+body {
+  padding: 5% 20%;
+}
+
+h1 {
+  font-family: "helvetica", sans-serif;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+table tr td img {
+  width: 110%;
+}
+
+.writers {
+  text-align: justify;
+  display: inline-block;
+}
+
+#list-books {
+  font-size: 1em;
+}
+
+#list-books tr td:first-child {
+  font-size: 1.5em;
+  font-family: "times", sans-serif;
+}
+
+#list-books tr td:first-child:hover {
+  text-decoration: underline;
+}
+
+td {
+  padding: 0.8%;
+  text-align: center;
+}
+
+td a {
+  text-decoration: none;
+  color: #000;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+#list-books {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#intro-index {
+  line-height: 1em;
+  text-align: center;
+  font-family: "georgia", "times new roman", serif;
+  text-decoration: underline;
+}
+
+#main-heading {
+  text-align: center;
+  background-image: url(images/spider-web.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 2em;
+  color: rgb(255, 255, 255);
+  font-family: "helvetica", sans-serif;
+  letter-spacing: 0.2em;
+}
+
+#credits {
+  letter-spacing: 0.2em;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Courier new", "Courier", "monospace";
+  font-size: 1.2em;
+}
+
+#intro::first-letter {
+  font-size: 200%;
+}
+
+#intro::first-line {
+  font-weight: bold;
+}
+
+#intro {
+  line-height: 1em;
+  text-align: justify;
+  font-family: "georgia", "times new roman", serif;
+  display: inline-block;
+}
+
+blockquote {
+  quotes: "“" "”";
+  text-align: justify;
+  line-height: 1em;
+  font-style: italic;
+  font-family: "georgia", "times new roman", serif;
+}
+
+blockquote:before {
+  content: open-quote;
+  font-size: 4em;
+  font-weight: bold;
+  color: #ccc;
+}
+
+blockquote:after {
+  content: close-quote;
+  font-size: 4em;
+  font-weight: bold;
+  color: #ccc;
+  float: right;
+  margin-top: 2rem;
+}
+
+h2 {
+  letter-spacing: 0.2em;
+  text-transform: capitalize;
+  font-family: "Roboto", "helvetica", sans-serif;
+}
+
+#story p {
+  text-indent: 1.5em;
+  line-height: 1.4em;
+  text-align: justify;
+  font-family: "georgia", "times", serif;
+}
+
+footer a {
+  text-decoration: none;
+  color: grey;
+  float: right;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+footer a:visited {
+  color: #000;
+}
